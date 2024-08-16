@@ -9,7 +9,7 @@
 
 /* sec-1 related css  */
 .sec-1 {
-    margin: 50px 100px;
+    margin: 50px 100px 0px 100px;
 }
 
 .sec-1-container {
@@ -24,6 +24,7 @@
     font-family: Merriweather;
     font-size: 32px;
     font-weight: 400;
+    color: #FFF;
 }
 
 .sec-1-title-1 {
@@ -31,9 +32,13 @@
     font-family: Merriweather;
     font-size: 55px;
     font-weight: 900;
+    color: #FFF;
 }
 
 /* sec-2 related styles */
+.sec-2 {
+    margin: 70px 100px 0px 100px;
+}
 
 .sec-2-title {
     color: #F00;
@@ -62,11 +67,55 @@
     margin-bottom: 50px;
 }
 
-.img-1 {
+.sec-2-img-1 {
     height: 400px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    outline: 2px solid black;
+}
+
+/* sec-3 related styles */
+.sec-3 {
+    margin: 70px 100px 0px 100px;
+    background-image: url("images/22.png");
+    background-repeat: no-repeat;
+    padding: 60px;
+    background-size: 100%;
+}
+
+.sec-3-container {
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+
+.sec-3-img-2 {
+    height: 400px;
+}
+
+.sec-3-title {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: 7.04px;
+    margin-bottom: 40px;
+}
+
+.sec-3-description {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 200;
+    margin-bottom: 30px;
+}
+.sec-3-button{
+    background-color: #fa6400;
+    font-size: 18px;
+    border: none;
+    padding: 18px 30px;
+    color: #FFF;
+    font-family: Inter;
+    border-radius: 5px;
 }
