@@ -172,9 +172,8 @@
     align-items: center;
     display: flex;
     padding: 50px;
-    gap: 100px;
+    gap: 50px;
 }
-
 .sec-5-title-1 {
     color: #F00;
     font-family: Inter;
@@ -206,6 +205,13 @@
     margin-bottom: 15px;
     margin-right: 150px;
 }
-#sec-5-description-2{
+
+#sec-5-description-2 {
     margin-bottom: 15px;
+}
+
+.sec-5-part-2 {
+    border-radius: 463px;
+    border: 15px solid #F00;
+    padding: 20px;
 }
