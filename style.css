@@ -259,6 +259,27 @@
     font-weight: 500;
 }
 
+.sec-6-image-1 {
+    float: right;
+}
+
+.sec-6-image-2 {
+    height: 200px;
+    position: absolute;
+    bottom: -3100px;
+    left: 720px;
+}
+
+.sec-6-image-3 {
+    height: 450px;
+    position: absolute;
+    top: 3650px;
+}
+
+.sec-6-image-4 {
+    height: 199.3px;
+}
+
 /* sec-7 related styles */
 .sec-7 {
     margin: 70px 100px 0px 100px;
