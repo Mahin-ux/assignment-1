@@ -159,6 +159,7 @@
     border: none;
     background-color: #F00;
     border-radius: 6px;
+    color: #FFF;
 }
 
 /* sec-5 related styles */
@@ -362,4 +363,62 @@
     background: #F00;
     color: #FFF;
     font-size: 13px;
+}
+
+/* sec-9 related styles */
+.sec-9 {
+    background-color: #070211;
+    margin: 70px 0px 0px 0px;
+}
+
+.sec-9-container {
+    padding: 100px;
+}
+
+.sec-9-title-1 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.sec-9-part-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec-9-part-1-2 {
+    display: flex;
+    gap: 8px;
+}
+
+.sec-9-image-1 {
+    height: 20px;
+}
+
+.sec-9-part-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec-9-part-3 {
+    margin: 80px 0px 0px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.sec-9-image-2 {
+    height: 40px;
+}
+
+#sec-9-image-3 {
+    margin-left: 15px;
+}
+
+.sec-9-part-4 {
+    margin: 80px 0px 0px 0px;
+    display: flex;
+    justify-content: space-between;
 }
